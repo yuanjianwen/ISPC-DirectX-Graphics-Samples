@@ -22,6 +22,12 @@
     <Filter Include="Source Files\Util">
       <UniqueIdentifier>{10f3c935-7b57-4931-a129-46f6b9c57fa9}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Assets\ISPC Kernels">
+      <UniqueIdentifier>{db229497-6606-4e43-a562-11ded16add8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ISPC Generated Header Files">
+      <UniqueIdentifier>{728fccfe-236a-49bb-9569-da37ec75c186}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
@@ -47,6 +53,9 @@
     </ClInclude>
     <ClInclude Include="Win32Application.h">
       <Filter>Header Files\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="nBodyGravity_ispc.h">
+      <Filter>Header Files\ISPC Generated Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -75,6 +84,9 @@
     </CustomBuild>
     <CustomBuild Include="NBodyGravityCS.hlsl">
       <Filter>Assets\Shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="nBodyGravity.ispc">
+      <Filter>Assets\ISPC Kernels</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
