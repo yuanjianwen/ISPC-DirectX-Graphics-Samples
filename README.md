@@ -14,4 +14,22 @@ Modifications have been made to the following project :
 
 ​	Samples\Desktop\D3D12nBodyGravity
 
-The purpose of modifying this sample is to show how simple it is to integrate ISPC into a project, how easy it is to port HLSL compute or C/C++ code to an ISPC kernel and also to see the performance gains that can be achieved over straight C/C++ scalar code.
+The purpose of modifying this sample is to show how trivial it is to integrate ISPC into a project, how easy it is to port HLSL compute or C/C++ code to an ISPC kernel and also to see the performance gains that can be achieved over straight C/C++ scalar code.
+
+To help focus the users of this repo, all unused samples, technique demos, libraries and templates have been removed.
+
+Please see the accompanying article on the [Intel Game Dev](https://software.intel.com/en-us/gamedev) website for a detailed explanation of the code :
+
+​	[Use the Intel SPMD Program Compiler for CPU Vectorization in Games](https://software.intel.com/en-us/articles/use-the-intel-spmd-program-compiler-for-cpu-vectorization-in-games)
+
+## Requirements
+* Windows 10
+* [Visual Studio 2017](https://www.visualstudio.com/) with the [Windows 10 Creator Update SDK](https://developer.microsoft.com/en-US/windows/downloads/windows-10-sdk)
+
+
+
+
+## Updates
+
+1. Added support for AVX 512
+
