@@ -413,7 +413,7 @@ void D3D12nBodyGravity::CreateVertexBuffer()
     vertices.resize(ParticleCount);
     for (UINT i = 0; i < ParticleCount; i++)
     {
-        vertices[i].color = XMFLOAT4(1.0f, 1.0f, 0.2f, 1.0f);
+        vertices[i].color = XMFLOAT4(50.0f, 50.0f, 5.0f, 50.0f);
     }
     const UINT bufferSize = ParticleCount * sizeof(ParticleVertex);
 
